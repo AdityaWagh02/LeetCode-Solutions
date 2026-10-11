@@ -18,7 +18,7 @@ class Solution {
         Collections.sort(nums);
 
         if(nums.size()%2==0){
-            double ans=(nums.get(n-1)+nums.get(n))/2.0;
+            double ans=(nums.get(n-1)+nums.get(n))/(double)2;
             return ans;
         }
         else{
